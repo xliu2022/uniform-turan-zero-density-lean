@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering",
+    "UniformTuran.uniformTuranDensity_gap"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"]
+}

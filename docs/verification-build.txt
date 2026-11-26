@@ -1,0 +1,466 @@
+[1/217] UniformTuran.Basic
+[2/217] UniformTuran.Ordered
+[3/217] UniformTuran.PositionConsistency
+[4/217] UniformTuran.PositionColoring
+[5/217] UniformTuran.UniformDensity
+[6/217] UniformTuran.Probability.FiniteLaw
+[7/217] UniformTuran.Probability.FiniteProducts
+[8/217] UniformTuran.Probability.CylinderEvents
+[9/217] UniformTuran.RandomColoring
+[10/217] UniformTuran.Probability.Collisions
+[11/217] UniformTuran.Probability.Concentration
+[12/217] UniformTuran.PaletteLipschitz
+[13/217] UniformTuran.Probability.SpreadableLaw
+[14/217] UniformTuran.Probability.HypergraphLaw
+[15/217] UniformTuran.PaletteConcentration
+[16/217] UniformTuran.PaletteLowerBound
+[17/217] UniformTuran.Targets
+[18/217] UniformTuran.FiniteSupport
+[19/217] UniformTuran.Core.MultipartiteBound
+[20/217] UniformTuran.Probability.BlockEmbeddings
+[21/217] UniformTuran.Probability.AdjacentDecomposition
+[22/217] UniformTuran.Probability.MomentBounds
+[23/217] UniformTuran.Probability.AdjacentExchange
+[24/217] UniformTuran.Probability.PairedRows
+[25/217] UniformTuran.Probability.SplittingCombinatorics
+[26/217] UniformTuran.Probability.SplittingBlocks
+[27/217] UniformTuran.Probability.VertexSplitting
+[28/217] UniformTuran.Probability.OrderInvariance
+[29/217] UniformTuran.Probability.MultipartiteEmbedding
+[30/217] UniformTuran.PartialPositionSplit
+[31/217] UniformTuran.Probability.SupportLaw
+[32/217] UniformTuran.Probability.CenteredSupport
+[33/217] UniformTuran.Probability.SupportVertexSplitting
+[34/217] UniformTuran.Probability.PositionPartiteEmbedding
+[35/217] UniformTuran.Probability.PositionSplitting
+[36/217] UniformTuran.Probability.LawCompactness
+[37/217] UniformTuran.Probability.FiniteModels
+[38/217] UniformTuran.FiniteRamsey
+[39/217] UniformTuran.Probability.LawHomogenization
+[40/217] UniformTuran.Reduction
+[41/217] UniformTuran.Probability.DisjointCoordinates
+[42/217] UniformTuran.Probability.ForbiddenPatterns
+[43/217] UniformTuran.Probability.HighFaceGenerator
+[44/217] UniformTuran.Probability.RetentionBounds
+[45/217] UniformTuran.CoordinateDensity
+[46/217] UniformTuran.CoordinateConversion
+[47/217] UniformTuran.Probability.ClusterAveraging
+[48/217] UniformTuran.AdmissibleClosure
+[49/217] UniformTuran.InducedDensity
+[50/217] UniformTuran.DivisibleModels
+[51/217] UniformTuran.UniformInduced
+[52/217] UniformTuran.Regularity.AddressSystem
+[53/217] UniformTuran.Regularity.RelativeRegularity
+[54/217] UniformTuran.Regularity.CrossingTuples
+[55/217] UniformTuran.Regularity.SubpolyadTests
+[56/217] UniformTuran.Regularity.TupleComplex
+[57/217] UniformTuran.Regularity.Telescoping
+[58/217] UniformTuran.Regularity.CountingFactors
+[59/217] UniformTuran.Regularity.TupleSplicing
+[60/217] UniformTuran.Regularity.DenseCountingCore
+[61/217] UniformTuran.Regularity.DenseCounting
+[62/217] UniformTuran.Regularity.CliqueCounting
+[63/217] UniformTuran.AddressDensity
+[64/217] UniformTuran.Regularity.AddressCoordinateBridge
+[65/217] UniformTuran.Regularity.AddressCompletion
+[66/217] UniformTuran.Regularity.AddressGenerator
+[67/217] UniformTuran.Regularity.AddressCompletionAverages
+[68/217] UniformTuran.WeakRegularity.FiniteConditional
+[69/217] UniformTuran.WeakRegularity
+[70/217] UniformTuran.WeakRegularity.BlockRegularity
+[71/217] UniformTuran.WeakRegularity.Iteration
+[72/217] UniformTuran.WeakRegularity.EquitableRefinement
+[73/217] UniformTuran.WeakRegularity.Normalized
+[74/217] UniformTuran.WeakRegularity.BlockCounting
+[75/217] UniformTuran.WeakRegularity.RegularClusterSelection
+[76/217] UniformTuran.WeakRegularity.MainClusters
+[77/217] UniformTuran.WeakRegularity.RamseyRegular
+[78/217] UniformTuran.WeakRegularity.HighDensityBoxes
+[79/217] UniformTuran.TupleKernel
+[80/217] UniformTuran.WeakRegularity.CoordinateBoxes
+[81/217] UniformTuran.WeakRegularity.LowDensityBoxes
+[82/217] UniformTuran.WeakRegularity.MeanSymmetry
+[83/217] UniformTuran.CoordinateConversionOne
+[84/217] UniformTuran.Regularity.PartitionRegularity
+[85/217] UniformTuran.Regularity.AddressCounting
+[86/217] UniformTuran.Regularity.GraphTransport
+[87/217] UniformTuran.Regularity.RegularityTransport
+[88/217] UniformTuran.Regularity.PatternCounting
+[89/217] UniformTuran.Regularity.PatternDoubling
+[90/217] UniformTuran.Regularity.UnionTestAveraging
+[91/217] UniformTuran.Regularity.SlicePolyads
+[92/217] UniformTuran.Regularity.EmbeddingParameters
+[93/217] UniformTuran.Regularity.TopLayerCounting
+[94/217] UniformTuran.Regularity.EmbeddingMass
+[95/217] UniformTuran.Regularity.PatternMoment
+[96/217] UniformTuran.Regularity.EmbeddingTheorem
+[97/217] UniformTuran.Regularity.PartiteEmbedding
+[98/217] UniformTuran.Regularity.AddressTopCells
+[99/217] UniformTuran.Regularity.RetainedModel
+[100/217] UniformTuran.Regularity.AddressSampling
+[101/217] UniformTuran.Regularity.AddressSelection
+[102/217] UniformTuran.StrongRegularity.Statement
+[103/217] UniformTuran.Regularity.AddressDensityBounds
+[104/217] UniformTuran.Regularity.FiniteModelConstruction
+[105/217] UniformTuran.StrongRegularityReduction
+[106/217] UniformTuran.StrongRegularity.FiniteColoring
+[107/217] UniformTuran.StrongRegularity.RandomSlicing
+[108/217] UniformTuran.StrongRegularity.RegularityAlgebra
+[109/217] UniformTuran.StrongRegularity.Energy
+[110/217] UniformTuran.StrongRegularity.ApproximateRefinement
+[111/217] UniformTuran.StrongRegularity.PartitionDistance
+[112/217] UniformTuran.StrongRegularity.FaceEnergyStability
+[113/217] UniformTuran.StrongRegularity.BoundedParameters
+[114/217] UniformTuran.StrongRegularity.EnergyIteration
+[115/217] UniformTuran.StrongRegularity.EnergyTransport
+[116/217] UniformTuran.StrongRegularity.InitialPartition
+[117/217] UniformTuran.StrongRegularity.PartitionState
+[118/217] UniformTuran.StrongRegularity.InductionStatement
+[119/217] UniformTuran.StrongRegularity.EnergyIncrement
+[120/217] UniformTuran.StrongRegularity.FaceEnergyIncrement
+[121/217] UniformTuran.StrongRegularity.ProfilePolyads
+[122/217] UniformTuran.StrongRegularity.AllowedRegionTransport
+[123/217] UniformTuran.StrongRegularity.LabelSystemEnergy
+[124/217] UniformTuran.StrongRegularity.StateCells
+[125/217] UniformTuran.StrongRegularity.CrossingVolume
+[126/217] UniformTuran.StrongRegularity.NoncrossingVolume
+[127/217] UniformTuran.StrongRegularity.EquitableSlicing
+[128/217] UniformTuran.StrongRegularity.CellColoring
+[129/217] UniformTuran.StrongRegularity.EquitableCells
+[130/217] UniformTuran.StrongRegularity.CoarseCellColoring
+[131/217] UniformTuran.StrongRegularity.LabelParameters
+[132/217] UniformTuran.StrongRegularity.ExtendPartition
+[133/217] UniformTuran.StrongRegularity.EqualVertexRefinement
+[134/217] UniformTuran.StrongRegularity.VertexStates
+[135/217] UniformTuran.StrongRegularity.VertexNormalization
+[136/217] UniformTuran.StrongRegularity.TestEnumeration
+[137/217] UniformTuran.StrongRegularity.IrregularWitness
+[138/217] UniformTuran.StrongRegularity.IrregularEnergyIncrement
+[139/217] UniformTuran.StrongRegularity.GraphEnergyIncrement
+[140/217] UniformTuran.StrongRegularity.StatePolyadRefinement
+[141/217] UniformTuran.StrongRegularity.VertexEnergy
+[142/217] UniformTuran.StrongRegularity.ColoredRepair
+[143/217] UniformTuran.StrongRegularity.PolyadRefinement
+[144/217] UniformTuran.StrongRegularity.PolyadRepair
+[145/217] UniformTuran.StrongRegularity.GraphColoring
+[146/217] UniformTuran.StrongRegularity.StatePolyadBounds
+[147/217] UniformTuran.StrongRegularity.LabelSystemRegularity
+[148/217] UniformTuran.StrongRegularity.LabelSystemIncrement
+[149/217] UniformTuran.StrongRegularity.LabelSystemBounds
+[150/217] UniformTuran.StrongRegularity.VertexBounds
+[151/217] UniformTuran.StrongRegularity.VertexIrregularity
+[152/217] UniformTuran.StrongRegularity.StateProfileTransport
+[153/217] UniformTuran.StrongRegularity.ProfileEnergyTransport
+[154/217] UniformTuran.StrongRegularity.FixedCrossingIncrement
+[155/217] UniformTuran.StrongRegularity.PhysicalGraphIncrement
+[156/217] UniformTuran.StrongRegularity.GraphBaseCase
+[157/217] UniformTuran.StrongRegularity.RegularityToPartition
+[158/217] UniformTuran.StrongRegularity.StateRestrictHeight
+[159/217] UniformTuran.StrongRegularity.StateOldCells
+[160/217] UniformTuran.StrongRegularity.StateApproximationBounds
+[161/217] UniformTuran.StrongRegularity.ColorPatching
+[162/217] UniformTuran.StrongRegularity.ColorGrouping
+[163/217] UniformTuran.StrongRegularity.CoarseDensity
+[164/217] UniformTuran.StrongRegularity.RegularApproximation
+[165/217] UniformTuran.StrongRegularity.GroupedApproximation
+[166/217] UniformTuran.StrongRegularity.PhysicalUniformIncrement
+[167/217] UniformTuran.StrongRegularity.UniformEnergy
+[168/217] UniformTuran.StrongRegularity.NormalizationStatement
+[169/217] UniformTuran.StrongRegularity.UniformBounds
+[170/217] UniformTuran.StrongRegularity.UniformIrregularity
+[171/217] UniformTuran.StrongRegularity.UniformPumping
+[172/217] UniformTuran.StrongRegularity.UniformInduction
+[173/217] UniformTuran.StrongRegularity.ApproximationFiniteColors
+[174/217] UniformTuran.StrongRegularity.NormalizationBudget
+[175/217] UniformTuran.StrongRegularity.NormalizationEnvelope
+[176/217] UniformTuran.StrongRegularity.NormalizationCleanupBudget
+[177/217] UniformTuran.StrongRegularity.StateExtendLayer
+[178/217] UniformTuran.StrongRegularity.StateLayerCells
+[179/217] UniformTuran.StrongRegularity.StateLayerBadMass
+[180/217] UniformTuran.StrongRegularity.StateCleanupAssembly
+[181/217] UniformTuran.StrongRegularity.InitialGrowthBounds
+[182/217] UniformTuran.StrongRegularity.InitialGrowthSlicing
+[183/217] UniformTuran.StrongRegularity.InitialGrowthLayer
+[184/217] UniformTuran.StrongRegularity.StateProfileParents
+[185/217] UniformTuran.StrongRegularity.StatePolyadGeometry
+[186/217] UniformTuran.StrongRegularity.StateCellLabels
+[187/217] UniformTuran.StrongRegularity.StatePolyadParents
+[188/217] UniformTuran.StrongRegularity.StatePhysicalRegularity
+[189/217] UniformTuran.StrongRegularity.StateNaturalPolyads
+[190/217] UniformTuran.StrongRegularity.InitialGrowthInheritance
+[191/217] UniformTuran.StrongRegularity.StateCoarseColoring
+[192/217] UniformTuran.StrongRegularity.InitialGrowthConstruction
+[193/217] UniformTuran.StrongRegularity.NormalizationLocalCells
+[194/217] UniformTuran.StrongRegularity.NormalizationPolyad
+[195/217] UniformTuran.StrongRegularity.StateCleanupOriginal
+[196/217] UniformTuran.StrongRegularity.NormalizationConstruction
+[197/217] UniformTuran.StrongRegularity.UniformityStep
+[198/217] UniformTuran.StrongRegularity.ApproximationBudget
+[199/217] UniformTuran.StrongRegularity.ApproximationIterationBounds
+[200/217] UniformTuran.StrongRegularity.StateIrregularCarrier
+[201/217] UniformTuran.StrongRegularity.StateRefinedProfiles
+[202/217] UniformTuran.StrongRegularity.StateFineRepairData
+[203/217] UniformTuran.StrongRegularity.CoarseBadRepair
+[204/217] UniformTuran.StrongRegularity.PolyadPatching
+[205/217] UniformTuran.StrongRegularity.StatePerfectPatching
+[206/217] UniformTuran.StrongRegularity.StateGoodRepair
+[207/217] UniformTuran.StrongRegularity.StateCellRestriction
+[208/217] UniformTuran.StrongRegularity.StateProfileInheritance
+[209/217] UniformTuran.StrongRegularity.TwoScaleCellGroups
+[210/217] UniformTuran.StrongRegularity.ApproximationPatchingBudget
+[211/217] UniformTuran.StrongRegularity.StateLocalRepair
+[212/217] UniformTuran.StrongRegularity.ApproximationConstruction
+[213/217] UniformTuran.StrongRegularity.RegularityConstruction
+[214/217] UniformTuran.Main
+[215/217] UniformTuran
+[216/217] Checks.Axioms
+Axiom audit passed for 3331 project declarations.
+'UniformTuran.hasPositionConsistentOrdering_of_density_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.palette_le_uniformTuranDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_adjacent_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_vertex_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_map_of_edgewiseIncreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Multipartite.complete_multipartite_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Multipartite.completePattern_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.positionConsistent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.exists_spreadable_model_of_approximate_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.FiniteShadowModels.exists_spreadable_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.main_conclusions_of_finiteModelReduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformDense_to_coordinateDense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_iff_mem_Icc_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformDense_induced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.dense_counting_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.WeakRegularity.VertexPartition.exists_ramsey_regular_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.admissible_one_coordinate_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models_divisible_of_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.addressClass_nonempty_of_tolerance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.addressClass_card_bounds_of_tolerance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.IsRegular.pullbackCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.regular_complex_embedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.regular_complex_host_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.LabelSystem.isFree_retainedConfiguration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.retainedAddressLaw_avoids' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.AddressSelection.exists_clusters_and_global_lower_of_counted_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.exists_finite_model_of_regular_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.finiteModelReduction_of_strongRegularity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.paperMainTheorem_of_strongRegularity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.LabelEnergy.exists_lower_face_refinement_of_badCarrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.noncrossing_volume_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.partitionEnergy_comp_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.codeEquiv_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence_of_regularityLemma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.LowRegular.fullCell_restrict_allowed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_grouped_regular_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.uniformColorEnergy_gain_of_repair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.initialGrowth_of_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_coarse_coloring_of_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.physicalAddressSlice_regular_to_tuple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.equitableNormalization_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_two_scale_regular_partitions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_trivial_grouped_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_perfect_color_of_local_repairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.sum_approximationLocalBudget_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.TwoScaleRegularData.exists_profile_repair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_of_regularityLemma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.paperMainTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.uniformTuranDensity_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+[217/217] Checks.CombinatorialAudit
+'UniformTuran.UHypergraph.positionConsistent_iff_sharedRankConsistent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.UHypergraph.hasPositionConsistentOrdering_of_containsCopy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.SpreadableLaw.phi_map_of_edgewiseIncreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.finitePositionSplit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phiOnSupport_mapOnSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.FiniteRamsey.finite_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.FiniteRamsey.simultaneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.FiniteShadowModels.exists_spreadable_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.ClusterAveraging.expected_selected_sum_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.ClusterAveraging.exists_clusters_and_lower_labels_of_weighted_irregularity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.admissible_uniformTuranDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_iff_mem_Icc_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_of_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.IsRegular.mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.IsRegular.abs_polyadDensity_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.isRegular_of_polyadDensity_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.isRegular_of_polyadDensity_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.IsRegular.count_discrepancy_subpolyad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.IsRegular.tuple_constraint_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.DenseCounting.face_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.layer_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.count_absolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.countThrough_eq_card_crossingCliques' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.DenseCounting.dense_counting_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.IsRegular.weighted_subpolyad_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.DenseCounting.sliced_union_discrepancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.DenseCounting.lower_slice_secondMoment_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.DenseCounting.regular_complex_embedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.rawEnergy_sub_eq_sum_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.face_partitionEnergy_ge_of_bad_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.abs_face_partitionEnergy_sub_le_of_cell_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.partitionEnergy_increment_of_tests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_face_refinement_of_irregular_profiles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.IsRegular.congr_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.LabelEnergy.topAddressRegular_iff_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.LabelEnergy.exists_lower_face_refinement_on_parent_crossing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.partitionEnergy_profile_transport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_graph_witness_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_uniform_witness_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.top_polyad_volume_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.top_polyad_boundary_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.uniformColorEnergy_gain_of_repair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_all_of_constructions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence_all_of_constructions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_approximation_bound_fintype' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.normalization_error_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.normalization_mass_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.normalization_restriction_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_normalization_slicing_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_coarse_coloring_of_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_two_scale_regular_partitions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.sum_approximationLocalBudget_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.initialGrowth_of_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.equitableNormalization_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_of_regularityLemma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.paperMainTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.uniformTuranDensity_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+Built 217 local Lean modules successfully.

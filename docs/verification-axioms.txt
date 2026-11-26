@@ -1,0 +1,115 @@
+Axiom audit passed for 3331 project declarations.
+'UniformTuran.hasPositionConsistentOrdering_of_density_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.palette_le_uniformTuranDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_adjacent_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_vertex_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.phi_map_of_edgewiseIncreasing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Multipartite.complete_multipartite_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Multipartite.completePattern_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.SpreadableLaw.positionConsistent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.exists_spreadable_model_of_approximate_laws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.FiniteShadowModels.exists_spreadable_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.main_conclusions_of_finiteModelReduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformDense_to_coordinateDense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_iff_mem_Icc_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformDense_induced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models_divisible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.dense_counting_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.WeakRegularity.VertexPartition.exists_ramsey_regular_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.admissible_one_coordinate_models' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.admissible_coordinate_models_divisible_of_one_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.addressClass_nonempty_of_tolerance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.addressClass_card_bounds_of_tolerance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.IsRegular.pullbackCells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.DenseCounting.regular_complex_embedding' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.regular_complex_host_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.Regularity.LabelSystem.isFree_retainedConfiguration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.LabelSystem.retainedAddressLaw_avoids' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.AddressSelection.exists_clusters_and_global_lower_of_counted_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.Regularity.exists_finite_model_of_regular_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.finiteModelReduction_of_strongRegularity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.paperMainTheorem_of_strongRegularity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.LabelEnergy.exists_lower_face_refinement_of_badCarrier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.noncrossing_volume_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.partitionEnergy_comp_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.codeEquiv_code' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence_of_regularityLemma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.LowRegular.fullCell_restrict_allowed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_grouped_regular_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.uniformColorEnergy_gain_of_repair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.initialGrowth_of_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_coarse_coloring_of_refinement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.physicalAddressSlice_regular_to_tuple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.equitableNormalization_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_succ_of_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_two_scale_regular_partitions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.exists_trivial_grouped_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.PartitionState.exists_perfect_color_of_local_repairs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.sum_approximationLocalBudget_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.TwoScaleRegularData.exists_profile_repair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_of_regularityLemma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.StrongRegularity.regularityLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.approximationLemma_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.StrongRegularity.partitionExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.paperMainTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'UniformTuran.uniformTuranDensity_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

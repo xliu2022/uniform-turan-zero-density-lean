@@ -1,0 +1,32 @@
+{
+  "main_theorem_complete": true,
+  "remaining_obligation": null,
+  "proof_entrypoint": "UniformTuran.paperMainTheorem",
+  "explicit_conclusions": [
+    "UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering",
+    "UniformTuran.uniformTuranDensity_gap"
+  ],
+  "command": "bash scripts/build-local.sh UniformTuran Checks.Axioms Checks.CombinatorialAudit",
+  "exit_code": 0,
+  "built_modules": 217,
+  "lean_source_lines": 37578,
+  "audited_declarations": 3331,
+  "build_diagnostics": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+  "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "portable_lake_build_executed": false,
+  "graph_regularity_base_case_complete": true,
+  "initial_growth_complete": true,
+  "regular_approximation_complete": true,
+  "all_arities_regularity_complete": true,
+  "forbidden_proof_tokens": []
+}

@@ -1,0 +1,89 @@
+version: "v0.4"
+
+project:
+  name: "Hypergraphs with zero uniform Turán density at intermediate levels"
+  description: >-
+    For r ≥ 4 and 1 ≤ j ≤ r − 3, a finite r-uniform hypergraph with at least
+    one edge has zero uniform Turán density at level j exactly when its
+    vertices admit an ordering in which each shared (j + 1)-set occupies
+    the same positions in the edges containing it. For any family of such
+    forbidden graphs, a positive uniform Turán density is at least N⁻ᴺ,
+    where N is the binomial coefficient r choose (j + 1). This covers
+    infinite forbidden families as well as finite ones. The development
+    formalizes Theorem 1.1 of Heng Li and Xizhi Liu.
+  authors: ["Xizhi Liu"]
+  responsible_maintainers: ["Xizhi Liu"]
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C65", "05C35"]
+
+sources:
+  - title: "Hypergraphs with zero uniform Turán density at intermediate levels"
+    authors: ["Heng Li", "Xizhi Liu"]
+    type: paper
+    id: "arXiv:2611.06964v1"
+    location: "https://arxiv.org/abs/2611.06964v1"
+    relationship: formalizes
+    note: >-
+      Equation (1.1) and the definition immediately following it specify the
+      density. The two compared declarations give the two conclusions of
+      Theorem 1.1. The mathematical sources for the regularity argument are
+      discussed in docs/ExternalDependencies.md.
+
+status:
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  scope: >-
+    Both conclusions of Theorem 1.1 cover the full intermediate range of j.
+    Every forbidden graph has an edge and may have isolated vertices. The
+    forbidden family may be empty. The two theorem holes in Challenge.lean
+    mark the statements for comparison. Solution.lean imports the proofs
+    from UniformTuran.Main.
+
+automation:
+  methods:
+    - method: other
+      models: ["OpenAI GPT"]
+      tool_setup: >-
+        The maintainer reports that GPT generated most of the original Lean
+        proofs. The specific model version was not recorded here.
+    - method: agent
+      models: ["OpenAI GPT-6"]
+      framework: "OpenAI Codex"
+      tool_setup: >-
+        Prepared the independent Challenge and the submission files, compared
+        the statements with the source paper, and set up mechanical verification.
+
+fidelity:
+  divergences: >-
+    Labelled copies use injective edge-preserving maps. Zero-based ranks give
+    the same equality of position sets as the paper's one-based ranks.
+    Consistent finite-dimensional distributions supply the finite random
+    events used in the proof. Constructing an infinite measure and proving
+    stronger versions of the external regularity theorems are outside the
+    recorded claims.
+
+review:
+  status: "agent-reviewed"
+  notes: >-
+    Codex checked the density definition, ordering, parameter range and family
+    bound against arXiv:2611.06964v1. The project's detailed statement audit
+    is in docs/SEMANTIC_AUDIT.md. The proof-development build and transitive
+    axiom audit are recorded under docs/. The permitted axioms are propext,
+    Classical.choice and Quot.sound. Independent human review of the Lean
+    development is undocumented.
+
+alignment:
+  namespace: "UniformTuran"
+  statements:
+    - source: "Theorem 1.1, ordering characterization"
+      lean: "UniformTuran.uniformTuranDensity_eq_zero_iff_positionConsistentOrdering"
+      module: "UniformTuran.Main"
+      status: proved
+    - source: "Theorem 1.1, gap for forbidden families"
+      lean: "UniformTuran.uniformTuranDensity_gap"
+      module: "UniformTuran.Main"
+      status: proved

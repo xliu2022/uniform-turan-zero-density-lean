@@ -1,0 +1,92 @@
+module
+
+public import UniformTuran.Targets
+public import UniformTuran.FiniteSupport
+public import UniformTuran.Core.MultipartiteBound
+public import UniformTuran.Probability.VertexSplitting
+public import UniformTuran.Probability.OrderInvariance
+public import UniformTuran.Probability.MultipartiteEmbedding
+public import UniformTuran.Probability.PositionSplitting
+public import UniformTuran.Probability.LawCompactness
+public import UniformTuran.Reduction
+public import UniformTuran.Probability.HighFaceGenerator
+public import UniformTuran.Probability.RetentionBounds
+public import UniformTuran.Probability.ForbiddenPatterns
+public import UniformTuran.CoordinateConversion
+public import UniformTuran.Probability.ClusterAveraging
+public import UniformTuran.AdmissibleClosure
+public import UniformTuran.DivisibleModels
+public import UniformTuran.UniformInduced
+public import UniformTuran.Regularity.CliqueCounting
+public import UniformTuran.Regularity.AddressCompletionAverages
+public import UniformTuran.WeakRegularity.RamseyRegular
+public import UniformTuran.CoordinateConversionOne
+public import UniformTuran.Regularity.AddressCounting
+public import UniformTuran.Regularity.RegularityTransport
+public import UniformTuran.Regularity.PatternCounting
+public import UniformTuran.Regularity.PatternDoubling
+public import UniformTuran.Regularity.TopLayerCounting
+public import UniformTuran.Regularity.PartiteEmbedding
+public import UniformTuran.Regularity.AddressTopCells
+public import UniformTuran.Regularity.RetainedModel
+public import UniformTuran.Regularity.AddressSelection
+public import UniformTuran.StrongRegularity.Statement
+public import UniformTuran.StrongRegularityReduction
+public import UniformTuran.StrongRegularity.FiniteColoring
+public import UniformTuran.StrongRegularity.RandomSlicing
+public import UniformTuran.StrongRegularity.RegularityAlgebra
+public import UniformTuran.StrongRegularity.Energy
+public import UniformTuran.StrongRegularity.ApproximateRefinement
+public import UniformTuran.StrongRegularity.PartitionDistance
+public import UniformTuran.StrongRegularity.FaceEnergyStability
+public import UniformTuran.StrongRegularity.EnergyIteration
+public import UniformTuran.StrongRegularity.EnergyTransport
+public import UniformTuran.StrongRegularity.InductionStatement
+public import UniformTuran.StrongRegularity.StateCells
+public import UniformTuran.StrongRegularity.CrossingVolume
+public import UniformTuran.StrongRegularity.NoncrossingVolume
+public import UniformTuran.StrongRegularity.ExtendPartition
+public import UniformTuran.StrongRegularity.LabelParameters
+public import UniformTuran.StrongRegularity.EqualVertexRefinement
+public import UniformTuran.StrongRegularity.VertexNormalization
+public import UniformTuran.StrongRegularity.VertexEnergy
+public import UniformTuran.StrongRegularity.PolyadRepair
+public import UniformTuran.StrongRegularity.GraphColoring
+public import UniformTuran.StrongRegularity.StatePolyadRefinement
+public import UniformTuran.StrongRegularity.StatePolyadBounds
+public import UniformTuran.StrongRegularity.LabelSystemIncrement
+public import UniformTuran.StrongRegularity.GraphBaseCase
+public import UniformTuran.StrongRegularity.RegularityToPartition
+public import UniformTuran.StrongRegularity.StateRestrictHeight
+public import UniformTuran.StrongRegularity.StateOldCells
+public import UniformTuran.StrongRegularity.StateApproximationBounds
+public import UniformTuran.StrongRegularity.ColorPatching
+public import UniformTuran.StrongRegularity.GroupedApproximation
+public import UniformTuran.StrongRegularity.PhysicalUniformIncrement
+public import UniformTuran.StrongRegularity.UniformEnergy
+public import UniformTuran.StrongRegularity.UniformInduction
+public import UniformTuran.StrongRegularity.ApproximationFiniteColors
+public import UniformTuran.StrongRegularity.NormalizationEnvelope
+public import UniformTuran.StrongRegularity.NormalizationCleanupBudget
+public import UniformTuran.StrongRegularity.StateCleanupAssembly
+public import UniformTuran.StrongRegularity.InitialGrowthConstruction
+public import UniformTuran.StrongRegularity.UniformityStep
+public import UniformTuran.StrongRegularity.ApproximationIterationBounds
+public import UniformTuran.StrongRegularity.StateFineRepairData
+public import UniformTuran.StrongRegularity.CoarseBadRepair
+public import UniformTuran.StrongRegularity.StatePerfectPatching
+public import UniformTuran.Main
+
+/-!
+# Formalization of zero uniform Turán density
+
+`paperMainTheorem` proves both conclusions of Theorem 1.1 on the paper's
+stated parameter range. Its proof includes the exact palette lower bound,
+Theorem 2.4, the coherent finite-dimensional form of Claim 3.5, all needed
+coordinate-density conversions, dense counting, ordinary injective host
+embedding, and the actual strong regularity construction. The uniformity
+induction discharges the partition-existence premise of the finite-model
+reduction. `Main` also exposes each main conclusion as a separate theorem.
+
+Author and maintainer: Xizhi Liu.
+-/

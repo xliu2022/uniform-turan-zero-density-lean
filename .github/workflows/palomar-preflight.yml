@@ -1,0 +1,28 @@
+name: Palomar mechanical preflight
+
+on:
+  workflow_dispatch:
+    inputs:
+      authorization_relationship:
+        description: Relationship to the substantive formalization
+        required: true
+        type: choice
+        options:
+          - I am a responsible author or maintainer
+          - I have approval from a responsible author or maintainer
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@046554302064b2c83c2b924bea6db87fc5900c68
+    with:
+      repository: ${{ github.repository }}
+      commit: ${{ github.sha }}
+      pipeline_commit: 046554302064b2c83c2b924bea6db87fc5900c68
+      request_id: uniformturan
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: >-
+        {"comparator_config_path":"comparator.json","authorization_relationship":"${{ inputs.authorization_relationship }}"}
